@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(pagetutoriaal.jpeg);
+    position: relative;
+}
+.navbar{
+    width: 90%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px 2px;
+}
+nav ul li a:hover{
+    color: rgb(175, 121, 5);
+    background: rgb(238, 213, 158);
+}
+.row{
+    width: 80%;
+    min-height: 85vh;
+    margin: auto;
+    display: flex;
+}
+.col{
+    margin: 20px 0;
+    flex-basis: 50%;
+    min-width: 300px;
+    height: 100%;
+    position: relative;
+}
+.text-box{
+    font-family: 'Roboto',sans-serif;
+    max-width: 1200px;
+    margin-top: 0px;
+}
+.text-box h3{
+    color: rgb(175, 121, 5);
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.text-box h4{
+    color: rgb(255, 202, 87);
+    font-weight: 20;
+    letter-spacing: 1.5px;
+    margin-top: 40px;
+}
+.text-box h1{
+    color: rgb(238, 213, 158);
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    line-height: 65px;
+    margin-bottom: 25px;
+}

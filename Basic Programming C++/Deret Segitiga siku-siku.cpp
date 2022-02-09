@@ -28,12 +28,12 @@ for(int a = 1; a <= (angka); a++){              // Looping endline ke arah bawah
 }
 
 
-    for(int a = 1; a <= n; a++){
+    for(int a = 1; a <= angka; a++){
         for(int b = 1; b <= a; b++){
            cout << " ";
             for(int c = 1; c <= a; c++){
                cout << "*";
-            } for(int d = n; d >= a; d--){
+            } for(int d = angka; d >= a; d--){
                 cout << " ";
             }
         } cout << "\n"; 

@@ -27,7 +27,7 @@ void cetakArray(int arr[], int size){
 }
 
 void main(){
-    int data[] = {23, 67, 89, 5, 45, 20, 15, 27};
+    int data[] = {23, 67, 61, 5, 45, 69, 15, 27};
     int size = sizeof(data) / sizeof(data[0]);
     selectionSort(data, size);
 

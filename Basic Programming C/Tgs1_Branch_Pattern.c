@@ -7,6 +7,7 @@ void main()
     char nama[20], matkul[20], nim[10];
     int nilai, tinggilove;
 
+    system("cls");
     printf("------TUGAS ASD------\n");
     printf("----Adi Kurniawan----\n");
     printf("======MENU UTAMA======\n");
